@@ -90,5 +90,3 @@ def test_get_list_breweries_filtered_by_type_negative(base_url, http_method_get,
     assert response_json["errors"][0] == 'Brewery type must include one of these types: ["micro",' \
                                          ' "nano", "regional", "brewpub", "large", "planning", ' \
                                          '"bar", "contract", "proprieter", "closed"]'
-
-

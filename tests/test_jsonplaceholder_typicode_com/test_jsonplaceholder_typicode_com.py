@@ -1,7 +1,6 @@
 import requests
 import pytest
 
-
 # export PYTHONPATH="~/develop/work4/"
 from tests.test_jsonplaceholder_typicode_com.test_data.test_data import ids, userIds
 

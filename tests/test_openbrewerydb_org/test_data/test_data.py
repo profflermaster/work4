@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-
 CUR_DIR = Path(__file__).parent
+
 
 def get_json_file_list_of_breweries_list():
     with open(f"{CUR_DIR}/list_of_breweries.json", "r") as json_file:
